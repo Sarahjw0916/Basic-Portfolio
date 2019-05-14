@@ -1,0 +1,67 @@
+h1 {
+    color: goldenrod;
+    background-color: rgb(4, 70, 4);
+    font-family: 'Times New Roman', Times, serif
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+a:link {
+    color: grey;
+}
+
+a:visited {
+    color: salmon;
+}
+
+a:hover {
+    color: rgb(87, 39, 39);
+    background-color: rgb(240, 187, 13);
+}
+
+a:focus {
+    background-color: rgb(187, 52, 3);
+    color: rgb(255, 244, 92);
+}
+
+a:active {
+    color: rgb(200, 93, 250);
+    background-color: rgb(41, 145, 86);
+}
+
+.container{
+    width: 1024px;
+    margin: 0 auto;
+    align-content: center;
+}
+
+.personalinfo {
+    float: left;
+    margin: 0 auto;
+}
+
+.name {
+    float: right;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
